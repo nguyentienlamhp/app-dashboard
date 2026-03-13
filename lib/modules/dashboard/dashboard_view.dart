@@ -16,7 +16,7 @@ class DashboardView extends GetView<DashboardController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Dao hàng', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+        title: const Text('Bảng quản trị', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
         actions: [
           IconButton(icon: const Icon(Icons.menu), onPressed: () {}),
           IconButton(icon: const Icon(Icons.remove), onPressed: () {}),

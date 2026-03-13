@@ -139,8 +139,8 @@ class DebtBarChart extends StatelessWidget {
         break;
     }
     return SideTitleWidget(
-      //fitInside: meta.axisSide,
       meta: meta,
+      angle: -0.5,
       child: Text(text, style: style),
     );
   }

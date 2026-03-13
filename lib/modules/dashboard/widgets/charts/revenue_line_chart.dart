@@ -135,8 +135,8 @@ class RevenueLineChart extends StatelessWidget {
     }
 
     return SideTitleWidget(
-      //axisSide: meta.axisSide,
       meta: meta,
+      angle: -0.5,
       child: text,
     );
   }

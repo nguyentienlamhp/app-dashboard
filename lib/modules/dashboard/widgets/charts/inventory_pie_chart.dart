@@ -33,21 +33,21 @@ class InventoryChart extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         _buildHorizontalBar(
-                          'Điện tử',
+                          'Cá mực',
                           2.1,
                           const Color(0xFF3B82F6),
                           0.7,
                         ),
                         const SizedBox(height: 16),
                         _buildHorizontalBar(
-                          'Gia dụng',
+                          'Cá hồi',
                           1.5,
                           const Color(0xFF60A5FA),
                           0.5,
                         ),
                         const SizedBox(height: 16),
                         _buildHorizontalBar(
-                          'Phụ kiện',
+                          'Khác',
                           3.0,
                           const Color(0xFFF97316),
                           1.0,
@@ -94,7 +94,7 @@ class InventoryChart extends StatelessWidget {
                               PieChartSectionData(
                                 color: const Color(0xFF22C55E),
                                 value: 30,
-                                title: 'Điện tử\n30%',
+                                title: 'Cá mực\n30%',
                                 radius: 40,
                                 titleStyle: const TextStyle(
                                   fontSize: 10,
@@ -105,7 +105,7 @@ class InventoryChart extends StatelessWidget {
                               PieChartSectionData(
                                 color: const Color(0xFF3B82F6),
                                 value: 50,
-                                title: 'Phụ kiện\n50%',
+                                title: 'Cá hồi\n50%',
                                 radius: 40,
                                 titleStyle: const TextStyle(
                                   fontSize: 10,
@@ -116,7 +116,7 @@ class InventoryChart extends StatelessWidget {
                               PieChartSectionData(
                                 color: const Color(0xFFEA580C),
                                 value: 20,
-                                title: 'Gia dụng\n20%',
+                                title: 'Khác\n20%',
                                 radius: 40,
                                 titleStyle: const TextStyle(
                                   fontSize: 10,
